@@ -1,0 +1,99 @@
+body{
+	/*font-family: 'Gotu', sans-serif !important;*/
+  font-family: 'Montserrat', sans-serif;
+	margin: 0;
+  padding: 0;
+}
+
+.shipper-head{
+	color: black;
+	background-color: #f2f3f4 ;
+	padding: 12px;
+	border: 1px solid #dfdfdf;
+}
+.customer-head{
+	color: black;
+	background-color: #f2f3f4;
+	padding: 12px;
+	border: 1px solid #dfdfdf;
+}
+.parcel-head{
+	color: black;
+	background-color: #f2f3f4;
+	padding: 12px;
+	border: 1px solid #dfdfdf;
+}
+.btn{
+	text-decoration: none;
+}
+
+/* Search Form */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px  solid #dfdfdf;
+  float: left;
+  width: 20%;
+  background: #f2f3f4;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #dfdfdf;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Frontend */
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: whitesmoke;
+  text-decoration: underline;
+  border: none !important;
+}
+.navbar{
+  border-bottom: 1px solid #6562C2;
+  background-color: #5450BB;
+}
+.nav-item{
+  margin-left: 20px;
+}
+/* main */
+#main{
+  background-color: #5450BB;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.head{
+  color: whitesmoke;
+  padding-top: 22%;
+}
+.desc{
+  color: whitesmoke;
+}
